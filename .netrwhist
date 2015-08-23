@@ -1,2 +1,9 @@
 let g:netrw_dirhistmax  =10
-let g:netrw_dirhist_cnt =0
+let g:netrw_dirhist_cnt =7
+let g:netrw_dirhist_1='/home/kestrel/coding/javascript/pcs/ta/mocha/public/tmpE1TUE7pb'
+let g:netrw_dirhist_2='/home/kestrel/coding/javascript/pcs/imm-sum15/jsi/reveal.js'
+let g:netrw_dirhist_3='/home/kestrel/coding/javascript/pcs/imm-sum15/bored'
+let g:netrw_dirhist_4='/home/kestrel/coding/javascript/pcs/jsn-sum14-2'
+let g:netrw_dirhist_5='/home/kestrel/coding/javascript/pcs/homework1'
+let g:netrw_dirhist_6='/home/kestrel/coding/haskell'
+let g:netrw_dirhist_7='/home/kestrel/.vim/bundle/ctrlp.vim/autoload/ctrlp'

@@ -26,11 +26,7 @@ execute pathogen#infect()
 syntax enable
 set background=dark
 colorscheme jellybeans
-" set t_Co=16
-" colo solarized
-
-" If using a dark background within the editing area and syntax highlighting
-" turn on this option as well
+set t_Co=256
 
 " Uncomment the following to have Vim jump to the last position when
 " reopening a file
@@ -93,5 +89,8 @@ au FileType ruby set makeprg=ruby\ %
 au FileType javascript set makeprg=node\ %
 au FileType python set makeprg=python\ %
 au FileType coffeescript set makeprg=coffee\ -c\ %
+
+" Set .md to be Markdown rather than Modula-2:
+autocmd BufNewFile,BufReadPost *.md set filetype=markdown
 
 noremap ,b :make<CR>
